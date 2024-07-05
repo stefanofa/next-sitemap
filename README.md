@@ -74,7 +74,7 @@ You can also use a custom config file instead of `next-sitemap.config.js`. Just 
 
 #### Building sitemaps with pnpm
 
-When using pnpm you need to create a `.npmrc` file in the root of your project if you want to use a postbuild step:
+When using pnpm<9 you need to create a `.npmrc` file in the root of your project if you want to use a postbuild step:
 
 ```
 //.npmrc
